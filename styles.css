@@ -1,0 +1,43 @@
+body {
+    background-color: #001f3f; /* Navy blue background */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+#alerts {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff4136;
+    border-radius: 5px;
+}
+
+#tips {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #0074d9;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
